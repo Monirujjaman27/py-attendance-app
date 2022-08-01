@@ -1,0 +1,18 @@
+
+from tkinter import*
+from tkinter import ttk
+from PIL import Image, ImageTk
+
+class St_Attendence:
+    def __init__(self,root):
+        self.root=root
+        self.root.geometry("1500x750+0+0")        
+        self.root.title("Student Menagement")
+
+
+
+
+if __name__ == "__main__":
+    root=Tk()
+    obj=St_Attendence(root)
+    root.mainloop()
